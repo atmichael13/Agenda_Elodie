@@ -2994,3 +2994,274 @@
 [2025-05-10 23:02:03,785] INFO - 🕯 Allumage ajouté pour 2026-09-27: Sukkot II (CH’’M)
 [2025-05-10 23:02:03,786] INFO - 📦 Total des fêtes renvoyées : 64
 [2025-05-10 23:02:03,787] INFO - 127.0.0.1 - - [10/May/2025 23:02:03] "GET /fetes?ville=jerusalem&start=2025-08-01&end=2026-09-27 HTTP/1.1" 200 -
+[2025-07-25 12:39:55,734] INFO - Flask va démarrer sur le port 3000
+[2025-07-25 12:39:56,071] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+[2025-07-25 12:39:56,071] INFO - [33mPress CTRL+C to quit[0m
+[2025-07-25 12:39:56,099] INFO -  * Restarting with stat
+[2025-07-25 12:39:59,125] INFO - Flask va démarrer sur le port 3000
+[2025-07-25 12:39:59,158] WARNING -  * Debugger is active!
+[2025-07-25 12:39:59,178] INFO -  * Debugger PIN: 363-886-414
+[2025-07-25 12:43:53,648] INFO -  * Detected change in 'D:\\Dropbox\\GitHub\\Agenda_Elodie\\app.py', reloading
+[2025-07-25 12:45:32,182] INFO - Flask va démarrer sur le port 3000
+[2025-07-25 12:45:32,242] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+[2025-07-25 12:45:32,243] INFO - [33mPress CTRL+C to quit[0m
+[2025-07-25 12:45:32,244] INFO -  * Restarting with stat
+[2025-07-25 12:45:32,443] INFO -  * Restarting with stat
+[2025-07-25 12:45:33,312] INFO - Flask va démarrer sur le port 3000
+[2025-07-25 12:45:33,363] WARNING -  * Debugger is active!
+[2025-07-25 12:45:33,383] INFO -  * Debugger PIN: 526-852-256
+[2025-07-25 12:45:34,825] INFO - Flask va démarrer sur le port 3000
+[2025-07-25 12:45:34,851] WARNING -  * Debugger is active!
+[2025-07-25 12:45:35,110] INFO -  * Debugger PIN: 363-886-414
+[2025-07-25 12:45:54,172] INFO - Flask va démarrer sur le port 3000
+[2025-07-25 12:45:54,210] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+[2025-07-25 12:45:54,210] INFO - [33mPress CTRL+C to quit[0m
+[2025-07-25 12:45:54,210] INFO -  * Restarting with stat
+[2025-07-25 12:45:56,327] INFO - Flask va démarrer sur le port 3000
+[2025-07-25 12:45:56,355] WARNING -  * Debugger is active!
+[2025-07-25 12:45:56,374] INFO -  * Debugger PIN: 363-886-414
+[2025-07-25 12:47:59,874] INFO -  * Detected change in 'D:\\Dropbox\\GitHub\\Agenda_Elodie\\app.py', reloading
+[2025-07-25 12:48:16,156] INFO -  * Restarting with stat
+[2025-07-25 12:48:18,606] INFO - Flask va démarrer sur le port 3000
+[2025-07-25 12:48:18,630] WARNING -  * Debugger is active!
+[2025-07-25 12:48:18,651] INFO -  * Debugger PIN: 363-886-414
+[2025-07-25 12:48:31,011] INFO -  * Detected change in 'D:\\Dropbox\\GitHub\\Agenda_Elodie\\app.py', reloading
+[2025-07-25 12:48:38,255] INFO -  * Restarting with stat
+[2025-07-25 12:48:40,188] INFO - Flask va démarrer sur le port 3000
+[2025-07-25 12:48:40,219] WARNING -  * Debugger is active!
+[2025-07-25 12:48:40,235] INFO -  * Debugger PIN: 363-886-414
+[2025-07-25 12:50:07,430] INFO - 127.0.0.1 - - [25/Jul/2025 12:50:07] "[33mGET /shabbat-excel?start=2025-08-31&end=2026-07-04&ville=geneve HTTP/1.1[0m" 404 -
+[2025-07-25 12:50:50,503] INFO - Requête reçue sur /shabbat
+[2025-07-25 12:50:50,504] WARNING - Ville inconnue : geneve
+[2025-07-25 12:50:50,505] INFO - 127.0.0.1 - - [25/Jul/2025 12:50:50] "[31m[1mGET /shabbat?start=2025-08-31&end=2026-07-04&ville=geneve HTTP/1.1[0m" 400 -
+[2025-07-25 12:50:57,974] INFO - Requête reçue sur /shabbat
+[2025-07-25 12:50:57,976] INFO - get_shabbat_times appelé avec start=2025-08-31, end=2026-07-04, geonameid=2660646
+[2025-07-25 12:50:58,012] INFO - 44 vendredis trouvés entre 2025-08-31 et 2026-07-04
+[2025-07-25 12:50:58,013] INFO - Traitement du Chabbat de 2025-09-05
+[2025-07-25 12:50:58,583] INFO - Ajouté : OrderedDict({'date': '2025-09-05', 'parasha': 'Ki-Tetsé', 'allumage': '19:48', 'havdalah': '20:50'})
+[2025-07-25 12:50:58,583] INFO - Traitement du Chabbat de 2025-09-12
+[2025-07-25 12:50:59,022] INFO - Ajouté : OrderedDict({'date': '2025-09-12', 'parasha': 'Ki-Tavo', 'allumage': '19:34', 'havdalah': '20:36'})
+[2025-07-25 12:50:59,023] INFO - Traitement du Chabbat de 2025-09-19
+[2025-07-25 12:50:59,466] INFO - Ajouté : OrderedDict({'date': '2025-09-19', 'parasha': 'Nitsavim', 'allumage': '19:20', 'havdalah': '20:21'})
+[2025-07-25 12:50:59,466] INFO - Traitement du Chabbat de 2025-09-26
+[2025-07-25 12:50:59,907] INFO - Ajouté : OrderedDict({'date': '2025-09-26', 'parasha': 'Vayélèkh', 'allumage': '19:06', 'havdalah': '20:07'})
+[2025-07-25 12:50:59,908] INFO - Traitement du Chabbat de 2025-10-03
+[2025-07-25 12:51:00,356] INFO - Ajouté : OrderedDict({'date': '2025-10-03', 'parasha': 'Haazinou', 'allumage': '18:53', 'havdalah': '19:54'})
+[2025-07-25 12:51:00,356] INFO - Traitement du Chabbat de 2025-10-10
+[2025-07-25 12:51:00,806] INFO - Ajouté : OrderedDict({'date': '2025-10-10', 'parasha': 'Hol Hamoed Souccot', 'allumage': '18:40', 'havdalah': '19:41'})
+[2025-07-25 12:51:00,806] INFO - Traitement du Chabbat de 2025-10-17
+[2025-07-25 12:51:01,264] INFO - Ajouté : OrderedDict({'date': '2025-10-17', 'parasha': 'Berechit', 'allumage': '18:27', 'havdalah': '19:28'})
+[2025-07-25 12:51:01,264] INFO - Traitement du Chabbat de 2025-10-24
+[2025-07-25 12:51:01,709] INFO - Ajouté : OrderedDict({'date': '2025-10-24', 'parasha': "Noa'h", 'allumage': '18:15', 'havdalah': '19:17'})
+[2025-07-25 12:51:01,710] INFO - Traitement du Chabbat de 2025-10-31
+[2025-07-25 12:51:02,143] INFO - Ajouté : OrderedDict({'date': '2025-10-31', 'parasha': 'Lekh Lékha', 'allumage': '17:04', 'havdalah': '18:07'})
+[2025-07-25 12:51:02,144] INFO - Traitement du Chabbat de 2025-11-07
+[2025-07-25 12:51:02,585] INFO - Ajouté : OrderedDict({'date': '2025-11-07', 'parasha': 'Vayéra', 'allumage': '16:54', 'havdalah': '17:58'})
+[2025-07-25 12:51:02,586] INFO - Traitement du Chabbat de 2025-11-14
+[2025-07-25 12:51:03,017] INFO - Ajouté : OrderedDict({'date': '2025-11-14', 'parasha': 'Hayé Sarah', 'allumage': '16:46', 'havdalah': '17:51'})
+[2025-07-25 12:51:03,026] INFO - Traitement du Chabbat de 2025-11-21
+[2025-07-25 12:51:03,487] INFO - Ajouté : OrderedDict({'date': '2025-11-21', 'parasha': 'Toledot', 'allumage': '16:39', 'havdalah': '17:45'})
+[2025-07-25 12:51:03,488] INFO - Traitement du Chabbat de 2025-11-28
+[2025-07-25 12:51:03,914] INFO - Ajouté : OrderedDict({'date': '2025-11-28', 'parasha': 'Vayétsé', 'allumage': '16:34', 'havdalah': '17:42'})
+[2025-07-25 12:51:03,915] INFO - Traitement du Chabbat de 2025-12-05
+[2025-07-25 12:51:04,350] INFO - Ajouté : OrderedDict({'date': '2025-12-05', 'parasha': "Vayichla'h", 'allumage': '16:31', 'havdalah': '17:40'})
+[2025-07-25 12:51:04,351] INFO - Traitement du Chabbat de 2025-12-12
+[2025-07-25 12:51:04,789] INFO - Ajouté : OrderedDict({'date': '2025-12-12', 'parasha': 'Vayéchev', 'allumage': '16:31', 'havdalah': '17:40'})
+[2025-07-25 12:51:04,789] INFO - Traitement du Chabbat de 2025-12-19
+[2025-07-25 12:51:05,228] INFO - Ajouté : OrderedDict({'date': '2025-12-19', 'parasha': 'Mikets', 'allumage': '16:33', 'havdalah': '17:43'})
+[2025-07-25 12:51:05,229] INFO - Traitement du Chabbat de 2025-12-26
+[2025-07-25 12:51:05,678] INFO - Ajouté : OrderedDict({'date': '2025-12-26', 'parasha': 'Vayigach', 'allumage': '16:37', 'havdalah': '17:47'})
+[2025-07-25 12:51:05,679] INFO - Traitement du Chabbat de 2026-01-02
+[2025-07-25 12:51:06,116] INFO - Ajouté : OrderedDict({'date': '2026-01-02', 'parasha': "Vaye'hi", 'allumage': '16:42', 'havdalah': '17:52'})
+[2025-07-25 12:51:06,116] INFO - Traitement du Chabbat de 2026-01-09
+[2025-07-25 12:51:06,550] INFO - Ajouté : OrderedDict({'date': '2026-01-09', 'parasha': 'Chemot', 'allumage': '16:50', 'havdalah': '18:00'})
+[2025-07-25 12:51:06,552] INFO - Traitement du Chabbat de 2026-01-16
+[2025-07-25 12:51:06,993] INFO - Ajouté : OrderedDict({'date': '2026-01-16', 'parasha': 'Vaéra', 'allumage': '16:59', 'havdalah': '18:08'})
+[2025-07-25 12:51:06,994] INFO - Traitement du Chabbat de 2026-01-23
+[2025-07-25 12:51:07,446] INFO - Ajouté : OrderedDict({'date': '2026-01-23', 'parasha': 'Bo', 'allumage': '17:08', 'havdalah': '18:17'})
+[2025-07-25 12:51:07,447] INFO - Traitement du Chabbat de 2026-01-30
+[2025-07-25 12:51:07,886] INFO - Ajouté : OrderedDict({'date': '2026-01-30', 'parasha': "Bechala'h", 'allumage': '17:19', 'havdalah': '18:26'})
+[2025-07-25 12:51:07,887] INFO - Traitement du Chabbat de 2026-02-06
+[2025-07-25 12:51:08,329] INFO - Ajouté : OrderedDict({'date': '2026-02-06', 'parasha': 'Yitro', 'allumage': '17:29', 'havdalah': '18:36'})
+[2025-07-25 12:51:08,329] INFO - Traitement du Chabbat de 2026-02-13
+[2025-07-25 12:51:08,773] INFO - Ajouté : OrderedDict({'date': '2026-02-13', 'parasha': 'Michpatim', 'allumage': '17:40', 'havdalah': '18:45'})
+[2025-07-25 12:51:08,773] INFO - Traitement du Chabbat de 2026-02-20
+[2025-07-25 12:51:09,222] INFO - Ajouté : OrderedDict({'date': '2026-02-20', 'parasha': 'Terouma', 'allumage': '17:50', 'havdalah': '18:55'})
+[2025-07-25 12:51:09,223] INFO - Traitement du Chabbat de 2026-02-27
+[2025-07-25 12:51:09,660] INFO - Ajouté : OrderedDict({'date': '2026-02-27', 'parasha': 'Tetsavé', 'allumage': '18:00', 'havdalah': '19:05'})
+[2025-07-25 12:51:09,660] INFO - Traitement du Chabbat de 2026-03-06
+[2025-07-25 12:51:10,103] INFO - Ajouté : OrderedDict({'date': '2026-03-06', 'parasha': 'Ki-Tissa', 'allumage': '18:10', 'havdalah': '19:14'})
+[2025-07-25 12:51:10,104] INFO - Traitement du Chabbat de 2026-03-13
+[2025-07-25 12:51:10,549] INFO - Ajouté : OrderedDict({'date': '2026-03-13', 'parasha': 'Vayakhel - Pékoudé', 'allumage': '18:20', 'havdalah': '19:24'})
+[2025-07-25 12:51:10,549] INFO - Traitement du Chabbat de 2026-03-20
+[2025-07-25 12:51:10,988] INFO - Ajouté : OrderedDict({'date': '2026-03-20', 'parasha': 'Vayikra', 'allumage': '18:29', 'havdalah': '19:34'})
+[2025-07-25 12:51:10,989] INFO - Traitement du Chabbat de 2026-03-27
+[2025-07-25 12:51:11,428] INFO - Ajouté : OrderedDict({'date': '2026-03-27', 'parasha': 'Tsav', 'allumage': '18:39', 'havdalah': '19:44'})
+[2025-07-25 12:51:11,429] INFO - Traitement du Chabbat de 2026-04-03
+[2025-07-25 12:51:11,869] INFO - Ajouté : OrderedDict({'date': '2026-04-03', 'parasha': "Hol Hamoed Pessa'h", 'allumage': '19:48', 'havdalah': '20:54'})
+[2025-07-25 12:51:11,869] INFO - Traitement du Chabbat de 2026-04-10
+[2025-07-25 12:51:12,300] INFO - Ajouté : OrderedDict({'date': '2026-04-10', 'parasha': 'Chémini', 'allumage': '19:57', 'havdalah': '21:04'})
+[2025-07-25 12:51:12,301] INFO - Traitement du Chabbat de 2026-04-17
+[2025-07-25 12:51:12,739] INFO - Ajouté : OrderedDict({'date': '2026-04-17', 'parasha': 'Tazria - Metsora', 'allumage': '20:07', 'havdalah': '21:14'})
+[2025-07-25 12:51:12,740] INFO - Traitement du Chabbat de 2026-04-24
+[2025-07-25 12:51:13,191] INFO - Ajouté : OrderedDict({'date': '2026-04-24', 'parasha': "A'haré Mot - Kedochim", 'allumage': '20:16', 'havdalah': '21:25'})
+[2025-07-25 12:51:13,191] INFO - Traitement du Chabbat de 2026-05-01
+[2025-07-25 12:51:13,633] INFO - Ajouté : OrderedDict({'date': '2026-05-01', 'parasha': 'Emor', 'allumage': '20:25', 'havdalah': '21:36'})
+[2025-07-25 12:51:13,635] INFO - Traitement du Chabbat de 2026-05-08
+[2025-07-25 12:51:14,087] INFO - Ajouté : OrderedDict({'date': '2026-05-08', 'parasha': "Béhar - Bé'houkotaï", 'allumage': '20:34', 'havdalah': '21:46'})
+[2025-07-25 12:51:14,087] INFO - Traitement du Chabbat de 2026-05-15
+[2025-07-25 12:51:14,536] INFO - Ajouté : OrderedDict({'date': '2026-05-15', 'parasha': 'Bamidbar', 'allumage': '20:43', 'havdalah': '21:57'})
+[2025-07-25 12:51:14,537] INFO - Traitement du Chabbat de 2026-05-22
+[2025-07-25 12:51:14,978] INFO - Ajouté : OrderedDict({'date': '2026-05-22', 'parasha': '2e jour de Chavouot', 'allumage': '20:51', 'havdalah': '22:06'})
+[2025-07-25 12:51:14,980] INFO - Traitement du Chabbat de 2026-05-29
+[2025-07-25 12:51:15,422] INFO - Ajouté : OrderedDict({'date': '2026-05-29', 'parasha': 'Nasso', 'allumage': '20:58', 'havdalah': '22:15'})
+[2025-07-25 12:51:15,423] INFO - Traitement du Chabbat de 2026-06-05
+[2025-07-25 12:51:15,857] INFO - Ajouté : OrderedDict({'date': '2026-06-05', 'parasha': 'Béhaalotékha', 'allumage': '21:04', 'havdalah': '22:22'})
+[2025-07-25 12:51:15,858] INFO - Traitement du Chabbat de 2026-06-12
+[2025-07-25 12:51:16,288] INFO - Ajouté : OrderedDict({'date': '2026-06-12', 'parasha': "Chéla'h Lekha", 'allumage': '21:09', 'havdalah': '22:27'})
+[2025-07-25 12:51:16,289] INFO - Traitement du Chabbat de 2026-06-19
+[2025-07-25 12:51:16,756] INFO - Ajouté : OrderedDict({'date': '2026-06-19', 'parasha': "Kora'h", 'allumage': '21:12', 'havdalah': '22:30'})
+[2025-07-25 12:51:16,757] INFO - Traitement du Chabbat de 2026-06-26
+[2025-07-25 12:51:17,201] INFO - Ajouté : OrderedDict({'date': '2026-06-26', 'parasha': 'Houkat - Balak', 'allumage': '21:13', 'havdalah': '22:30'})
+[2025-07-25 12:51:17,201] INFO - Traitement du Chabbat de 2026-07-03
+[2025-07-25 12:51:17,640] INFO - Ajouté : OrderedDict({'date': '2026-07-03', 'parasha': "Pin'has", 'allumage': '21:12', 'havdalah': '22:28'})
+[2025-07-25 12:51:17,659] INFO - Fichier shabbat_data.json sauvegardé avec 44 entrées
+[2025-07-25 12:51:17,660] INFO - 127.0.0.1 - - [25/Jul/2025 12:51:17] "GET /shabbat?start=2025-08-31&end=2026-07-04&ville=genève HTTP/1.1" 200 -
+[2025-07-25 13:06:32,119] INFO - Flask va démarrer sur le port 3000
+[2025-07-25 13:06:32,210] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+[2025-07-25 13:06:32,211] INFO - [33mPress CTRL+C to quit[0m
+[2025-07-25 13:06:32,214] INFO -  * Restarting with stat
+[2025-07-25 13:06:34,146] INFO - Flask va démarrer sur le port 3000
+[2025-07-25 13:06:34,168] WARNING -  * Debugger is active!
+[2025-07-25 13:06:34,184] INFO -  * Debugger PIN: 363-886-414
+[2025-07-25 13:06:39,948] INFO - Requête reçue sur /shabbat
+[2025-07-25 13:06:39,949] INFO - get_shabbat_times appelé avec start=2025-08-02, end=2026-09-27, geonameid=2660646
+[2025-07-25 13:06:39,954] INFO - 60 vendredis trouvés entre 2025-08-02 et 2026-09-27
+[2025-07-25 13:06:39,954] INFO - Traitement du Chabbat de 2025-08-08
+[2025-07-25 13:06:40,411] INFO - Ajouté : OrderedDict({'date': '2025-08-08', 'parasha': 'Vaetchanan', 'allumage': '20:37', 'havdalah': '21:44'})
+[2025-07-25 13:06:40,411] INFO - Traitement du Chabbat de 2025-08-15
+[2025-07-25 13:06:40,861] INFO - Ajouté : OrderedDict({'date': '2025-08-15', 'parasha': 'Eikev', 'allumage': '20:26', 'havdalah': '21:32'})
+[2025-07-25 13:06:40,862] INFO - Traitement du Chabbat de 2025-08-22
+[2025-07-25 13:06:41,303] INFO - Ajouté : OrderedDict({'date': '2025-08-22', 'parasha': 'Re’eh', 'allumage': '20:14', 'havdalah': '21:18'})
+[2025-07-25 13:06:41,304] INFO - Traitement du Chabbat de 2025-08-29
+[2025-07-25 13:06:41,752] INFO - Ajouté : OrderedDict({'date': '2025-08-29', 'parasha': 'Shoftim', 'allumage': '20:01', 'havdalah': '21:04'})
+[2025-07-25 13:06:41,752] INFO - Traitement du Chabbat de 2025-09-05
+[2025-07-25 13:06:42,192] INFO - Ajouté : OrderedDict({'date': '2025-09-05', 'parasha': 'Ki-Tetsé', 'allumage': '19:48', 'havdalah': '20:50'})
+[2025-07-25 13:06:42,192] INFO - Traitement du Chabbat de 2025-09-12
+[2025-07-25 13:06:42,628] INFO - Ajouté : OrderedDict({'date': '2025-09-12', 'parasha': 'Ki-Tavo', 'allumage': '19:34', 'havdalah': '20:36'})
+[2025-07-25 13:06:42,629] INFO - Traitement du Chabbat de 2025-09-19
+[2025-07-25 13:06:43,084] INFO - Ajouté : OrderedDict({'date': '2025-09-19', 'parasha': 'Nitsavim', 'allumage': '19:20', 'havdalah': '20:21'})
+[2025-07-25 13:06:43,084] INFO - Traitement du Chabbat de 2025-09-26
+[2025-07-25 13:06:43,540] INFO - Ajouté : OrderedDict({'date': '2025-09-26', 'parasha': 'Vayélèkh', 'allumage': '19:06', 'havdalah': '20:07'})
+[2025-07-25 13:06:43,542] INFO - Traitement du Chabbat de 2025-10-03
+[2025-07-25 13:06:43,977] INFO - Ajouté : OrderedDict({'date': '2025-10-03', 'parasha': 'Haazinou', 'allumage': '18:53', 'havdalah': '19:54'})
+[2025-07-25 13:06:43,977] INFO - Traitement du Chabbat de 2025-10-10
+[2025-07-25 13:06:44,411] INFO - Ajouté : OrderedDict({'date': '2025-10-10', 'parasha': 'Hol Hamoed Souccot', 'allumage': '18:40', 'havdalah': '19:41'})
+[2025-07-25 13:06:44,411] INFO - Traitement du Chabbat de 2025-10-17
+[2025-07-25 13:06:44,846] INFO - Ajouté : OrderedDict({'date': '2025-10-17', 'parasha': 'Berechit', 'allumage': '18:27', 'havdalah': '19:28'})
+[2025-07-25 13:06:44,846] INFO - Traitement du Chabbat de 2025-10-24
+[2025-07-25 13:06:45,298] INFO - Ajouté : OrderedDict({'date': '2025-10-24', 'parasha': "Noa'h", 'allumage': '18:15', 'havdalah': '19:17'})
+[2025-07-25 13:06:45,298] INFO - Traitement du Chabbat de 2025-10-31
+[2025-07-25 13:06:45,737] INFO - Ajouté : OrderedDict({'date': '2025-10-31', 'parasha': 'Lekh Lékha', 'allumage': '17:04', 'havdalah': '18:07'})
+[2025-07-25 13:06:45,738] INFO - Traitement du Chabbat de 2025-11-07
+[2025-07-25 13:06:46,174] INFO - Ajouté : OrderedDict({'date': '2025-11-07', 'parasha': 'Vayéra', 'allumage': '16:54', 'havdalah': '17:58'})
+[2025-07-25 13:06:46,175] INFO - Traitement du Chabbat de 2025-11-14
+[2025-07-25 13:06:46,606] INFO - Ajouté : OrderedDict({'date': '2025-11-14', 'parasha': 'Hayé Sarah', 'allumage': '16:46', 'havdalah': '17:51'})
+[2025-07-25 13:06:46,609] INFO - Traitement du Chabbat de 2025-11-21
+[2025-07-25 13:06:47,040] INFO - Ajouté : OrderedDict({'date': '2025-11-21', 'parasha': 'Toledot', 'allumage': '16:39', 'havdalah': '17:45'})
+[2025-07-25 13:06:47,041] INFO - Traitement du Chabbat de 2025-11-28
+[2025-07-25 13:06:47,480] INFO - Ajouté : OrderedDict({'date': '2025-11-28', 'parasha': 'Vayétsé', 'allumage': '16:34', 'havdalah': '17:42'})
+[2025-07-25 13:06:47,481] INFO - Traitement du Chabbat de 2025-12-05
+[2025-07-25 13:06:47,917] INFO - Ajouté : OrderedDict({'date': '2025-12-05', 'parasha': "Vayichla'h", 'allumage': '16:31', 'havdalah': '17:40'})
+[2025-07-25 13:06:47,917] INFO - Traitement du Chabbat de 2025-12-12
+[2025-07-25 13:06:48,381] INFO - Ajouté : OrderedDict({'date': '2025-12-12', 'parasha': 'Vayéchev', 'allumage': '16:31', 'havdalah': '17:40'})
+[2025-07-25 13:06:48,469] INFO - Traitement du Chabbat de 2025-12-19
+[2025-07-25 13:06:48,911] INFO - Ajouté : OrderedDict({'date': '2025-12-19', 'parasha': 'Mikets', 'allumage': '16:33', 'havdalah': '17:43'})
+[2025-07-25 13:06:48,912] INFO - Traitement du Chabbat de 2025-12-26
+[2025-07-25 13:06:49,355] INFO - Ajouté : OrderedDict({'date': '2025-12-26', 'parasha': 'Vayigach', 'allumage': '16:37', 'havdalah': '17:47'})
+[2025-07-25 13:06:49,356] INFO - Traitement du Chabbat de 2026-01-02
+[2025-07-25 13:06:49,806] INFO - Ajouté : OrderedDict({'date': '2026-01-02', 'parasha': "Vaye'hi", 'allumage': '16:42', 'havdalah': '17:52'})
+[2025-07-25 13:06:49,814] INFO - Traitement du Chabbat de 2026-01-09
+[2025-07-25 13:06:50,240] INFO - Ajouté : OrderedDict({'date': '2026-01-09', 'parasha': 'Chemot', 'allumage': '16:50', 'havdalah': '18:00'})
+[2025-07-25 13:06:50,243] INFO - Traitement du Chabbat de 2026-01-16
+[2025-07-25 13:06:50,696] INFO - Ajouté : OrderedDict({'date': '2026-01-16', 'parasha': 'Vaéra', 'allumage': '16:59', 'havdalah': '18:08'})
+[2025-07-25 13:06:50,696] INFO - Traitement du Chabbat de 2026-01-23
+[2025-07-25 13:06:51,144] INFO - Ajouté : OrderedDict({'date': '2026-01-23', 'parasha': 'Bo', 'allumage': '17:08', 'havdalah': '18:17'})
+[2025-07-25 13:06:51,146] INFO - Traitement du Chabbat de 2026-01-30
+[2025-07-25 13:06:51,580] INFO - Ajouté : OrderedDict({'date': '2026-01-30', 'parasha': "Bechala'h", 'allumage': '17:19', 'havdalah': '18:26'})
+[2025-07-25 13:06:51,581] INFO - Traitement du Chabbat de 2026-02-06
+[2025-07-25 13:06:52,018] INFO - Ajouté : OrderedDict({'date': '2026-02-06', 'parasha': 'Yitro', 'allumage': '17:29', 'havdalah': '18:36'})
+[2025-07-25 13:06:52,019] INFO - Traitement du Chabbat de 2026-02-13
+[2025-07-25 13:06:52,462] INFO - Ajouté : OrderedDict({'date': '2026-02-13', 'parasha': 'Michpatim', 'allumage': '17:40', 'havdalah': '18:45'})
+[2025-07-25 13:06:52,462] INFO - Traitement du Chabbat de 2026-02-20
+[2025-07-25 13:06:52,895] INFO - Ajouté : OrderedDict({'date': '2026-02-20', 'parasha': 'Terouma', 'allumage': '17:50', 'havdalah': '18:55'})
+[2025-07-25 13:06:52,895] INFO - Traitement du Chabbat de 2026-02-27
+[2025-07-25 13:06:53,350] INFO - Ajouté : OrderedDict({'date': '2026-02-27', 'parasha': 'Tetsavé', 'allumage': '18:00', 'havdalah': '19:05'})
+[2025-07-25 13:06:53,350] INFO - Traitement du Chabbat de 2026-03-06
+[2025-07-25 13:06:53,783] INFO - Ajouté : OrderedDict({'date': '2026-03-06', 'parasha': 'Ki-Tissa', 'allumage': '18:10', 'havdalah': '19:14'})
+[2025-07-25 13:06:53,783] INFO - Traitement du Chabbat de 2026-03-13
+[2025-07-25 13:06:54,220] INFO - Ajouté : OrderedDict({'date': '2026-03-13', 'parasha': 'Vayakhel - Pékoudé', 'allumage': '18:20', 'havdalah': '19:24'})
+[2025-07-25 13:06:54,221] INFO - Traitement du Chabbat de 2026-03-20
+[2025-07-25 13:06:54,645] INFO - Ajouté : OrderedDict({'date': '2026-03-20', 'parasha': 'Vayikra', 'allumage': '18:29', 'havdalah': '19:34'})
+[2025-07-25 13:06:54,646] INFO - Traitement du Chabbat de 2026-03-27
+[2025-07-25 13:06:55,083] INFO - Ajouté : OrderedDict({'date': '2026-03-27', 'parasha': 'Tsav', 'allumage': '18:39', 'havdalah': '19:44'})
+[2025-07-25 13:06:55,085] INFO - Traitement du Chabbat de 2026-04-03
+[2025-07-25 13:06:55,536] INFO - Ajouté : OrderedDict({'date': '2026-04-03', 'parasha': "Hol Hamoed Pessa'h", 'allumage': '19:48', 'havdalah': '20:54'})
+[2025-07-25 13:06:55,537] INFO - Traitement du Chabbat de 2026-04-10
+[2025-07-25 13:06:55,982] INFO - Ajouté : OrderedDict({'date': '2026-04-10', 'parasha': 'Chémini', 'allumage': '19:57', 'havdalah': '21:04'})
+[2025-07-25 13:06:55,984] INFO - Traitement du Chabbat de 2026-04-17
+[2025-07-25 13:06:56,425] INFO - Ajouté : OrderedDict({'date': '2026-04-17', 'parasha': 'Tazria - Metsora', 'allumage': '20:07', 'havdalah': '21:14'})
+[2025-07-25 13:06:56,426] INFO - Traitement du Chabbat de 2026-04-24
+[2025-07-25 13:06:56,873] INFO - Ajouté : OrderedDict({'date': '2026-04-24', 'parasha': "A'haré Mot - Kedochim", 'allumage': '20:16', 'havdalah': '21:25'})
+[2025-07-25 13:06:56,875] INFO - Traitement du Chabbat de 2026-05-01
+[2025-07-25 13:06:57,318] INFO - Ajouté : OrderedDict({'date': '2026-05-01', 'parasha': 'Emor', 'allumage': '20:25', 'havdalah': '21:36'})
+[2025-07-25 13:06:57,319] INFO - Traitement du Chabbat de 2026-05-08
+[2025-07-25 13:06:57,762] INFO - Ajouté : OrderedDict({'date': '2026-05-08', 'parasha': "Béhar - Bé'houkotaï", 'allumage': '20:34', 'havdalah': '21:46'})
+[2025-07-25 13:06:57,764] INFO - Traitement du Chabbat de 2026-05-15
+[2025-07-25 13:06:58,203] INFO - Ajouté : OrderedDict({'date': '2026-05-15', 'parasha': 'Bamidbar', 'allumage': '20:43', 'havdalah': '21:57'})
+[2025-07-25 13:06:58,204] INFO - Traitement du Chabbat de 2026-05-22
+[2025-07-25 13:06:58,655] INFO - Ajouté : OrderedDict({'date': '2026-05-22', 'parasha': '2e jour de Chavouot', 'allumage': '20:51', 'havdalah': '22:06'})
+[2025-07-25 13:06:58,656] INFO - Traitement du Chabbat de 2026-05-29
+[2025-07-25 13:06:59,096] INFO - Ajouté : OrderedDict({'date': '2026-05-29', 'parasha': 'Nasso', 'allumage': '20:58', 'havdalah': '22:15'})
+[2025-07-25 13:06:59,097] INFO - Traitement du Chabbat de 2026-06-05
+[2025-07-25 13:06:59,534] INFO - Ajouté : OrderedDict({'date': '2026-06-05', 'parasha': 'Béhaalotékha', 'allumage': '21:04', 'havdalah': '22:22'})
+[2025-07-25 13:06:59,535] INFO - Traitement du Chabbat de 2026-06-12
+[2025-07-25 13:06:59,969] INFO - Ajouté : OrderedDict({'date': '2026-06-12', 'parasha': "Chéla'h Lekha", 'allumage': '21:09', 'havdalah': '22:27'})
+[2025-07-25 13:06:59,970] INFO - Traitement du Chabbat de 2026-06-19
+[2025-07-25 13:07:00,407] INFO - Ajouté : OrderedDict({'date': '2026-06-19', 'parasha': "Kora'h", 'allumage': '21:12', 'havdalah': '22:30'})
+[2025-07-25 13:07:00,408] INFO - Traitement du Chabbat de 2026-06-26
+[2025-07-25 13:07:00,841] INFO - Ajouté : OrderedDict({'date': '2026-06-26', 'parasha': 'Houkat - Balak', 'allumage': '21:13', 'havdalah': '22:30'})
+[2025-07-25 13:07:00,842] INFO - Traitement du Chabbat de 2026-07-03
+[2025-07-25 13:07:01,281] INFO - Ajouté : OrderedDict({'date': '2026-07-03', 'parasha': "Pin'has", 'allumage': '21:12', 'havdalah': '22:28'})
+[2025-07-25 13:07:01,282] INFO - Traitement du Chabbat de 2026-07-10
+[2025-07-25 13:07:01,709] INFO - Ajouté : OrderedDict({'date': '2026-07-10', 'parasha': 'Matot-Masei', 'allumage': '21:09', 'havdalah': '22:24'})
+[2025-07-25 13:07:01,710] INFO - Traitement du Chabbat de 2026-07-17
+[2025-07-25 13:07:02,166] INFO - Ajouté : OrderedDict({'date': '2026-07-17', 'parasha': 'Devarim', 'allumage': '21:04', 'havdalah': '22:17'})
+[2025-07-25 13:07:02,167] INFO - Traitement du Chabbat de 2026-07-24
+[2025-07-25 13:07:02,605] INFO - Ajouté : OrderedDict({'date': '2026-07-24', 'parasha': 'Vaetchanan', 'allumage': '20:57', 'havdalah': '22:08'})
+[2025-07-25 13:07:02,607] INFO - Traitement du Chabbat de 2026-07-31
+[2025-07-25 13:07:03,051] INFO - Ajouté : OrderedDict({'date': '2026-07-31', 'parasha': 'Eikev', 'allumage': '20:49', 'havdalah': '21:58'})
+[2025-07-25 13:07:03,052] INFO - Traitement du Chabbat de 2026-08-07
+[2025-07-25 13:07:03,497] INFO - Ajouté : OrderedDict({'date': '2026-08-07', 'parasha': 'Re’eh', 'allumage': '20:39', 'havdalah': '21:46'})
+[2025-07-25 13:07:03,497] INFO - Traitement du Chabbat de 2026-08-14
+[2025-07-25 13:07:03,948] INFO - Ajouté : OrderedDict({'date': '2026-08-14', 'parasha': 'Shoftim', 'allumage': '20:28', 'havdalah': '21:34'})
+[2025-07-25 13:07:03,950] INFO - Traitement du Chabbat de 2026-08-21
+[2025-07-25 13:07:04,379] INFO - Ajouté : OrderedDict({'date': '2026-08-21', 'parasha': 'Ki-Tetsé', 'allumage': '20:16', 'havdalah': '21:20'})
+[2025-07-25 13:07:04,380] INFO - Traitement du Chabbat de 2026-08-28
+[2025-07-25 13:07:04,805] INFO - Ajouté : OrderedDict({'date': '2026-08-28', 'parasha': 'Ki-Tavo', 'allumage': '20:03', 'havdalah': '21:07'})
+[2025-07-25 13:07:04,806] INFO - Traitement du Chabbat de 2026-09-04
+[2025-07-25 13:07:05,241] INFO - Ajouté : OrderedDict({'date': '2026-09-04', 'parasha': 'Nitzavim-Vayeilech', 'allumage': '19:50', 'havdalah': '20:52'})
+[2025-07-25 13:07:05,242] INFO - Traitement du Chabbat de 2026-09-11
+[2025-07-25 13:07:05,679] WARNING - Incomplet pour 2026-09-11 : allumage=19:37, havdalah=None, parasha=Rosh Hashana 5787
+[2025-07-25 13:07:05,680] INFO - Traitement du Chabbat de 2026-09-18
+[2025-07-25 13:07:06,121] INFO - Ajouté : OrderedDict({'date': '2026-09-18', 'parasha': 'Haazinou', 'allumage': '19:23', 'havdalah': '20:24'})
+[2025-07-25 13:07:06,121] INFO - Traitement du Chabbat de 2026-09-25
+[2025-07-25 13:07:06,576] WARNING - Incomplet pour 2026-09-25 : allumage=19:09, havdalah=None, parasha=1er jour de Souccot
+[2025-07-25 13:07:06,578] INFO - Fichier shabbat_data.json sauvegardé avec 58 entrées
+[2025-07-25 13:07:06,580] INFO - 127.0.0.1 - - [25/Jul/2025 13:07:06] "GET /shabbat?start=2025-08-02&end=2026-09-27&ville=genève HTTP/1.1" 200 -
+[2025-07-25 13:13:15,316] INFO -  * Detected change in 'D:\\Dropbox\\GitHub\\Agenda_Elodie\\app_combined_excel.py', reloading
+[2025-07-25 13:13:16,035] INFO -  * Restarting with stat

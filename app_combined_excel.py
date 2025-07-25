@@ -1,20 +1,32 @@
-from flask import Flask, request
+from flask import Flask, request, send_file
 import requests
 import datetime
 import json
 import pandas as pd
+import unidecode
+import logging
+
 from collections import OrderedDict
 from babel.dates import format_date
 
 from fete_en_fr import fete_en_fr
 
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='[%(asctime)s] %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
+
 app = Flask(__name__)
 
 ville_to_geonameid = {
-    "paris": 2988507,
-    "marseille": 2995469,
-    "lyon": 2996944,
-    "strasbourg": 2973783,
+    # "paris": 2988507,
+    # "marseille": 2995469,
+    # "lyon": 2996944,
+    # "strasbourg": 2973783,
+    "genève": 2660646,
     "jerusalem": 281184
 }
 
@@ -87,7 +99,7 @@ def get_shabbat_times(start_date: str, end_date: str, geonameid: int):
 
     return shabbat_list
 
-def build_shabbat_excel_french(start_date_str, end_date_str, shabbat_data, output_path="shabbat_planning_fr.xlsx"):
+def build_shabbat_excel_french(start_date_str, end_date_str, shabbat_data, ville=None, writer=None):
     start_date = datetime.datetime.strptime(start_date_str, "%Y-%m-%d").date()
     end_date = datetime.datetime.strptime(end_date_str, "%Y-%m-%d").date()
     date_range = pd.date_range(start=start_date, end=end_date)
@@ -100,7 +112,7 @@ def build_shabbat_excel_french(start_date_str, end_date_str, shabbat_data, outpu
         "avdallah": ["" for _ in date_range],
     })
 
-    # Nouvelle logique : on place allumage sur la date exacte et parasha/havdalah le jour suivant
+    # Associations date → valeurs
     allumage_by_date = {}
     parasha_by_next_day = {}
     havdalah_by_next_day = {}
@@ -118,8 +130,14 @@ def build_shabbat_excel_french(start_date_str, end_date_str, shabbat_data, outpu
         df.at[i, "parasha"] = parasha_by_next_day.get(date_only, "")
         df.at[i, "avdallah"] = havdalah_by_next_day.get(date_only, "")
 
-    df.to_excel(output_path, index=False)
-    print(f">> Fichier Excel généré localement : {output_path}")
+    if writer:
+        sheet = ville if ville else "shabbat"
+        df.to_excel(writer, index=False, sheet_name=sheet)
+    else:
+        output_path = f"shabbat_{ville}_{start_date_str}_to_{end_date_str}.xlsx"
+        df.to_excel(output_path, index=False)
+        logger.info(f"📄 Fichier Excel généré localement : {output_path}")
+
 
 @app.route('/shabbat-excel')
 def shabbat_excel():
@@ -128,24 +146,34 @@ def shabbat_excel():
     ville = request.args.get('ville')
     geonameid = request.args.get('geonameid', type=int)
 
-    if ville:
-        ville = ville.lower()
-        if ville not in ville_to_geonameid:
-            return {
-                "error": f"Ville '{ville}' inconnue. Villes disponibles : {list(ville_to_geonameid.keys())}"
-            }, 400
-        geonameid = ville_to_geonameid[ville]
-
-    if not geonameid:
-        geonameid = 2988507  # Paris par défaut
-
     if not start or not end:
         return {"error": "Please provide 'start' and 'end' in YYYY-MM-DD format."}, 400
 
     try:
-        results = get_shabbat_times(start, end, geonameid)
-        build_shabbat_excel_french(start, end, results)
-        return {"message": "Fichier Excel généré avec succès."}
+        filename = f"shabbat_multivilles_{start}_to_{end}.xlsx" if not ville else f"shabbat_{ville}_{start}_to_{end}.xlsx"
+
+        if ville:
+            ville = ville.lower()
+            if ville not in ville_to_geonameid:
+                return {
+                    "error": f"Ville '{ville}' inconnue. Villes disponibles : {list(ville_to_geonameid.keys())}"
+                }, 400
+            geonameid = ville_to_geonameid[ville]
+            results = get_shabbat_times(start, end, geonameid)
+            logger.info(f"🔁 Traitement de la ville : {ville}")
+            build_shabbat_excel_french(start, end, results, ville=ville)
+            logger.info(f"✅ Feuille Excel remplie pour {ville}")
+
+        else:
+            with pd.ExcelWriter(filename, engine="openpyxl") as writer:
+                for ville_name, geonameid in ville_to_geonameid.items():
+                    logger.info(f"🔁 Traitement de la ville : {ville_name}")
+                    results = get_shabbat_times(start, end, geonameid)
+                    build_shabbat_excel_french(start, end, results, ville=ville_name, writer=writer)
+                    logger.info(f"✅ Feuille Excel remplie pour {ville_name}")
+
+        return send_file(filename, as_attachment=True)
+
     except Exception as e:
         return {"error": str(e)}, 500
 

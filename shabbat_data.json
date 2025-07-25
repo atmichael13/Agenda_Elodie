@@ -1,86 +1,350 @@
 [
   {
+    "date": "2025-08-08",
+    "parasha": "Vaetchanan",
+    "allumage": "20:37",
+    "havdalah": "21:44"
+  },
+  {
+    "date": "2025-08-15",
+    "parasha": "Eikev",
+    "allumage": "20:26",
+    "havdalah": "21:32"
+  },
+  {
+    "date": "2025-08-22",
+    "parasha": "Re’eh",
+    "allumage": "20:14",
+    "havdalah": "21:18"
+  },
+  {
+    "date": "2025-08-29",
+    "parasha": "Shoftim",
+    "allumage": "20:01",
+    "havdalah": "21:04"
+  },
+  {
+    "date": "2025-09-05",
+    "parasha": "Ki-Tetsé",
+    "allumage": "19:48",
+    "havdalah": "20:50"
+  },
+  {
+    "date": "2025-09-12",
+    "parasha": "Ki-Tavo",
+    "allumage": "19:34",
+    "havdalah": "20:36"
+  },
+  {
+    "date": "2025-09-19",
+    "parasha": "Nitsavim",
+    "allumage": "19:20",
+    "havdalah": "20:21"
+  },
+  {
     "date": "2025-09-26",
     "parasha": "Vayélèkh",
-    "allumage": "19:21",
-    "havdalah": "20:24"
+    "allumage": "19:06",
+    "havdalah": "20:07"
   },
   {
     "date": "2025-10-03",
     "parasha": "Haazinou",
-    "allumage": "19:07",
-    "havdalah": "20:10"
+    "allumage": "18:53",
+    "havdalah": "19:54"
   },
   {
     "date": "2025-10-10",
     "parasha": "Hol Hamoed Souccot",
-    "allumage": "18:52",
-    "havdalah": "19:55"
+    "allumage": "18:40",
+    "havdalah": "19:41"
   },
   {
     "date": "2025-10-17",
     "parasha": "Berechit",
-    "allumage": "18:38",
-    "havdalah": "19:42"
+    "allumage": "18:27",
+    "havdalah": "19:28"
   },
   {
     "date": "2025-10-24",
     "parasha": "Noa'h",
-    "allumage": "18:25",
-    "havdalah": "19:30"
+    "allumage": "18:15",
+    "havdalah": "19:17"
   },
   {
     "date": "2025-10-31",
     "parasha": "Lekh Lékha",
-    "allumage": "17:13",
-    "havdalah": "18:19"
+    "allumage": "17:04",
+    "havdalah": "18:07"
   },
   {
     "date": "2025-11-07",
     "parasha": "Vayéra",
-    "allumage": "17:02",
-    "havdalah": "18:09"
+    "allumage": "16:54",
+    "havdalah": "17:58"
   },
   {
     "date": "2025-11-14",
     "parasha": "Hayé Sarah",
-    "allumage": "16:53",
-    "havdalah": "18:01"
+    "allumage": "16:46",
+    "havdalah": "17:51"
   },
   {
     "date": "2025-11-21",
     "parasha": "Toledot",
-    "allumage": "16:45",
-    "havdalah": "17:55"
+    "allumage": "16:39",
+    "havdalah": "17:45"
   },
   {
     "date": "2025-11-28",
     "parasha": "Vayétsé",
-    "allumage": "16:40",
-    "havdalah": "17:50"
+    "allumage": "16:34",
+    "havdalah": "17:42"
   },
   {
     "date": "2025-12-05",
     "parasha": "Vayichla'h",
-    "allumage": "16:36",
-    "havdalah": "17:48"
+    "allumage": "16:31",
+    "havdalah": "17:40"
   },
   {
     "date": "2025-12-12",
     "parasha": "Vayéchev",
-    "allumage": "16:35",
-    "havdalah": "17:48"
+    "allumage": "16:31",
+    "havdalah": "17:40"
   },
   {
     "date": "2025-12-19",
     "parasha": "Mikets",
-    "allumage": "16:37",
-    "havdalah": "17:50"
+    "allumage": "16:33",
+    "havdalah": "17:43"
   },
   {
     "date": "2025-12-26",
     "parasha": "Vayigach",
-    "allumage": "16:41",
-    "havdalah": "17:54"
+    "allumage": "16:37",
+    "havdalah": "17:47"
+  },
+  {
+    "date": "2026-01-02",
+    "parasha": "Vaye'hi",
+    "allumage": "16:42",
+    "havdalah": "17:52"
+  },
+  {
+    "date": "2026-01-09",
+    "parasha": "Chemot",
+    "allumage": "16:50",
+    "havdalah": "18:00"
+  },
+  {
+    "date": "2026-01-16",
+    "parasha": "Vaéra",
+    "allumage": "16:59",
+    "havdalah": "18:08"
+  },
+  {
+    "date": "2026-01-23",
+    "parasha": "Bo",
+    "allumage": "17:08",
+    "havdalah": "18:17"
+  },
+  {
+    "date": "2026-01-30",
+    "parasha": "Bechala'h",
+    "allumage": "17:19",
+    "havdalah": "18:26"
+  },
+  {
+    "date": "2026-02-06",
+    "parasha": "Yitro",
+    "allumage": "17:29",
+    "havdalah": "18:36"
+  },
+  {
+    "date": "2026-02-13",
+    "parasha": "Michpatim",
+    "allumage": "17:40",
+    "havdalah": "18:45"
+  },
+  {
+    "date": "2026-02-20",
+    "parasha": "Terouma",
+    "allumage": "17:50",
+    "havdalah": "18:55"
+  },
+  {
+    "date": "2026-02-27",
+    "parasha": "Tetsavé",
+    "allumage": "18:00",
+    "havdalah": "19:05"
+  },
+  {
+    "date": "2026-03-06",
+    "parasha": "Ki-Tissa",
+    "allumage": "18:10",
+    "havdalah": "19:14"
+  },
+  {
+    "date": "2026-03-13",
+    "parasha": "Vayakhel - Pékoudé",
+    "allumage": "18:20",
+    "havdalah": "19:24"
+  },
+  {
+    "date": "2026-03-20",
+    "parasha": "Vayikra",
+    "allumage": "18:29",
+    "havdalah": "19:34"
+  },
+  {
+    "date": "2026-03-27",
+    "parasha": "Tsav",
+    "allumage": "18:39",
+    "havdalah": "19:44"
+  },
+  {
+    "date": "2026-04-03",
+    "parasha": "Hol Hamoed Pessa'h",
+    "allumage": "19:48",
+    "havdalah": "20:54"
+  },
+  {
+    "date": "2026-04-10",
+    "parasha": "Chémini",
+    "allumage": "19:57",
+    "havdalah": "21:04"
+  },
+  {
+    "date": "2026-04-17",
+    "parasha": "Tazria - Metsora",
+    "allumage": "20:07",
+    "havdalah": "21:14"
+  },
+  {
+    "date": "2026-04-24",
+    "parasha": "A'haré Mot - Kedochim",
+    "allumage": "20:16",
+    "havdalah": "21:25"
+  },
+  {
+    "date": "2026-05-01",
+    "parasha": "Emor",
+    "allumage": "20:25",
+    "havdalah": "21:36"
+  },
+  {
+    "date": "2026-05-08",
+    "parasha": "Béhar - Bé'houkotaï",
+    "allumage": "20:34",
+    "havdalah": "21:46"
+  },
+  {
+    "date": "2026-05-15",
+    "parasha": "Bamidbar",
+    "allumage": "20:43",
+    "havdalah": "21:57"
+  },
+  {
+    "date": "2026-05-22",
+    "parasha": "2e jour de Chavouot",
+    "allumage": "20:51",
+    "havdalah": "22:06"
+  },
+  {
+    "date": "2026-05-29",
+    "parasha": "Nasso",
+    "allumage": "20:58",
+    "havdalah": "22:15"
+  },
+  {
+    "date": "2026-06-05",
+    "parasha": "Béhaalotékha",
+    "allumage": "21:04",
+    "havdalah": "22:22"
+  },
+  {
+    "date": "2026-06-12",
+    "parasha": "Chéla'h Lekha",
+    "allumage": "21:09",
+    "havdalah": "22:27"
+  },
+  {
+    "date": "2026-06-19",
+    "parasha": "Kora'h",
+    "allumage": "21:12",
+    "havdalah": "22:30"
+  },
+  {
+    "date": "2026-06-26",
+    "parasha": "Houkat - Balak",
+    "allumage": "21:13",
+    "havdalah": "22:30"
+  },
+  {
+    "date": "2026-07-03",
+    "parasha": "Pin'has",
+    "allumage": "21:12",
+    "havdalah": "22:28"
+  },
+  {
+    "date": "2026-07-10",
+    "parasha": "Matot-Masei",
+    "allumage": "21:09",
+    "havdalah": "22:24"
+  },
+  {
+    "date": "2026-07-17",
+    "parasha": "Devarim",
+    "allumage": "21:04",
+    "havdalah": "22:17"
+  },
+  {
+    "date": "2026-07-24",
+    "parasha": "Vaetchanan",
+    "allumage": "20:57",
+    "havdalah": "22:08"
+  },
+  {
+    "date": "2026-07-31",
+    "parasha": "Eikev",
+    "allumage": "20:49",
+    "havdalah": "21:58"
+  },
+  {
+    "date": "2026-08-07",
+    "parasha": "Re’eh",
+    "allumage": "20:39",
+    "havdalah": "21:46"
+  },
+  {
+    "date": "2026-08-14",
+    "parasha": "Shoftim",
+    "allumage": "20:28",
+    "havdalah": "21:34"
+  },
+  {
+    "date": "2026-08-21",
+    "parasha": "Ki-Tetsé",
+    "allumage": "20:16",
+    "havdalah": "21:20"
+  },
+  {
+    "date": "2026-08-28",
+    "parasha": "Ki-Tavo",
+    "allumage": "20:03",
+    "havdalah": "21:07"
+  },
+  {
+    "date": "2026-09-04",
+    "parasha": "Nitzavim-Vayeilech",
+    "allumage": "19:50",
+    "havdalah": "20:52"
+  },
+  {
+    "date": "2026-09-18",
+    "parasha": "Haazinou",
+    "allumage": "19:23",
+    "havdalah": "20:24"
   }
 ]

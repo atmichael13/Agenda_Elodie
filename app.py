@@ -1,3 +1,5 @@
+# Created by Michael attali
+# use database of 
 from flask import Flask, request
 import requests
 import datetime
@@ -26,7 +28,8 @@ ville_to_geonameid = {
     "marseille": 2995469,
     "lyon": 2996944,
     "strasbourg": 2973783,
-    "jerusalem": 281184
+    "jerusalem": 281184,
+    "genève": 2660646
 }
 
 def corriger_parasha(nom):
